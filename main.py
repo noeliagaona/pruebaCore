@@ -22,7 +22,7 @@ for i in range (1,101):
    else:
         print(i)
 
-#Pregunta 4: FizzBuzz
+#Pregunta 4: FizzBuzzz
 
 #Escribe un programa que muestre por pantalla los números del 1 al 100 y que tenga en cuenta los siguientes casos especiales:
 
