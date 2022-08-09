@@ -2,25 +2,25 @@
 
 #Declara una variable en python e imprimela por pantalla:
 
-#nombre = "Noelia Gaona Andreu"
-#print(nombre)
+nombre = "Noelia Gaona Andreu"
+print(nombre)
 
 #Pregunta 2:
 
 #Haz un bucle que imprima los números del 1 al 100:
 
-#for i in range (1,101):
-    #print(i)
+for i in range (1,101):
+    print(i)
 
 #Pregunta 3:
 
 #Crea una estructura if/else dentro del bucle para que esta imprima "Hola" cuando el número sea 5:
 
-#for i in range (1,101):
-#   if i == 5 :
-#       print("Hola")
-#   else:
-#        print(i)
+for i in range (1,101):
+   if i == 5 :
+       print("Hola")
+   else:
+        print(i)
 
 #Pregunta 4: FizzBuzz
 
@@ -32,11 +32,11 @@
 #4. Si no cumple ninguna de las anteriores, mostrar por pantalla solo el número
 
 for i in range (1,101):
-    if (i % 3)==0:
-        print (i, str("Fizz"))
-    if (i % 5)==0:
-        print(i, ("Buzz"))
-    if (i % 5 ) & (i % 3)==0:
+    if (i % 5 ==0) & (i % 3==0):
         print(i, ("FizzBuzz"))
+    elif (i % 3)==0:
+        print (i, str("Fizz"))
+    elif(i % 5)==0:
+        print(i, ("Buzz"))
     else:
         print(i)
